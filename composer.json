@@ -1,0 +1,5 @@
+{
+    "require": {
+        "saefy/quars": "^1.0"
+    }
+}
