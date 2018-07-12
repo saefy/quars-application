@@ -55,7 +55,7 @@ Note: quars_serve is for dev purposes only, don't use it in prod environments.
 ## Deploy to production
 Apache Server with PHP 7.* (required)
 
-You can setup the project on production server by just pointing your domain.com to public/ folder and your app will be online, enjoy :).
+You can setup the project on production server by just pointing your domain.com to public/ directory and your app will be online, enjoy :).
 
 ## Contributing
 
