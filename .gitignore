@@ -1,1 +1,4 @@
 vendor
+config.php
+app.php
+database.php
