@@ -66,8 +66,8 @@ session_start();
 if(!isset($_SESSION['num_conn'])){$_SESSION['num_conn'] = 0;}
 $_SESSION['num_conn'] = 0;
 
-if(!defined('SYSTEM_PATH')){
-	define('SYSTEM_PATH', $application_dir);
+if(!defined('SYSTEM_PATH_QRS')){
+	define('SYSTEM_PATH_QRS', $application_dir);
 	
 	//load the app configuration
 	\Quars\Quars::load_configuration();
@@ -86,8 +86,8 @@ if(!defined('SYSTEM_PATH')){
 |
 */
 
-$HttpRoutes = SYSTEM_PATH.'app/Routes/HttpRoutes.php';
-if (file_exists($HttpRoutes)) {  require(SYSTEM_PATH.'app/Routes/HttpRoutes.php'); }
+$HttpRoutes = SYSTEM_PATH_QRS.'app/Routes/HttpRoutes.php';
+if (file_exists($HttpRoutes)) {  require(SYSTEM_PATH_QRS.'app/Routes/HttpRoutes.php'); }
 
 Global $RouteMode;
 

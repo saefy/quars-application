@@ -2,3 +2,6 @@ vendor
 config.php
 app.php
 database.php
+.idea
+application_example/app/Cache
+autoload.php
