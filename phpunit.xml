@@ -1,0 +1,12 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         syntaxCheck="false"
+         colors="true"
+         strict="true"
+         bootstrap="application_example/public/load.php">
+    <testsuites>
+        <testsuite name="Tests">
+            <directory suffix=".php">application_example/tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

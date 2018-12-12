@@ -5,3 +5,4 @@ database.php
 .idea
 application_example/app/Cache
 autoload.php
+.phpintel
