@@ -6,7 +6,9 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Quars is a PHP Framework for small projects, easy to implement. It uses Phroutes/phroutes for routing, blade template engine used in Laravel.
+This is a Quars Web App, an implementacion with [saefy/quars](https://github.com/saefy/quars/) Framework.
+
+Quars is a PHP Framework. It uses Phroutes/phroutes for routing, blade template engine used in Laravel.
 
 - Database is handled with \Quars\Db\Db
 - ActiveRecord library is \Quars\ActiveRecord
