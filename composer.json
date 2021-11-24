@@ -1,6 +1,6 @@
 {
     "require": {
-        "saefy/quars": "^1.1.4"
+        "saefy/quars": "^1.1.21"
     },
     "scripts": {
         "test": "phpunit --configuration phpunit.xml"
