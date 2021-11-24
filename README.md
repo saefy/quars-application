@@ -39,13 +39,23 @@ vendor/
 
 Clone or download this repository. Your application will be on _application_example_ folder but you can rename it to yours project name.
 
-Install packages via Composer
+1. Install packages via Composer
 
 ``` bash
 $ composer install
 ```
 
-Run your app 
+2. Rename your config files from *.dist.php to *.php
+```
+cd <application_folder_name>/app/Config
+mv app.dist.php app.php
+mv autoload.dist.php autoload.php
+mv config.dist.php config.php
+mv database.dist.php database.php
+cd ../../../
+```
+
+3. Run your app 
 
 ``` bash
 $ sh quars_serve <application_folder_name>
