@@ -14,20 +14,17 @@
 */
 use \Quars\Route;
 
-
 /*
 |--------------------------------------------------------------------------
-| Examples: Route all
+| Examples
 |--------------------------------------------------------------------------
 */
-Route::all(); // This will route all to controllers 
 
-
-/*
-|--------------------------------------------------------------------------
-| Examples: Specifing Routes
-|--------------------------------------------------------------------------
-*/
+// example serving index url: /
+Route::get('/', function($action = 'index'){
+    $Controller = new \App\Controllers\IndexController();
+    $Controller->$action();
+});
 
 // Route::any('/example/{name}?', function($name = ''){
 // 	echo 'Hi, '.$name;
@@ -42,5 +39,6 @@ Route::all(); // This will route all to controllers
 // Route::options($uri, $callback);
 
 // Route::any('/', function(){
-// 	echo 'index';
+// 	\Quars\Load::
 // });
+
