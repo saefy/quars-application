@@ -14,10 +14,8 @@ class IndexController extends Controller{
     public function index(){
 
         // Example with ActiveRecord
-    	$User = new \Quars\ActiveRecord('usuarios');
-
-    	$User->find(4);
-    	
+    	// $User = new \Quars\ActiveRecord('usuarios');
+    	// $User->find(4);
         // user data is in $User->fields;
 
     	$blade = new Bladex();
@@ -25,7 +23,8 @@ class IndexController extends Controller{
     	$data = [
     		'name' => 'John Doe',
     		'message' => 'This is rendered with blade template engine',
-    		'user' => $User->fields
+    		'user' => ['username'=>'johndoe']
+            // 'user' => $User->fields
     	];
 		echo $blade->make('homepage', $data);
 
