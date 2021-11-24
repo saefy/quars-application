@@ -1,7 +1,7 @@
-hola {{ $name }}.
+Hi {{ $name }}.
 
 <p>
 {{ $message }}
 </p>
 
-{{ $user['usuario'] }}
+Username: {{ $user['username'] }}
